@@ -1,7 +1,7 @@
 const Webpack = require('webpack');
 const ErrorOverlayPlugin = require('error-overlay-webpack-plugin');
 const { merge } = require('webpack-merge');
-const common = require('./webpack.common.js');
+const common = require('./webpack.common');
 const paths = require('../paths');
 
 module.exports = merge(common, {

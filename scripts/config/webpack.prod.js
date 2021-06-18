@@ -4,7 +4,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
-const common = require('./webpack.common.js');
+const common = require('./webpack.common');
 const paths = require('../paths');
 const { shouldOpenAnalyzer, ANALYZER_HOST, ANALYZER_PORT } = require('../conf');
 
