@@ -16,8 +16,8 @@ const ANALYZER_PORT = '8888';
 const imageInlineSizeLimit = 4 * 1024;
 
 module.exports = {
-  PROJECT_PATH,
-  PROJECT_NAME,
+  PROJECT_PATH, // 表示项目的跟目录
+  PROJECT_NAME, // 表示项目名称
   SERVER_HOST,
   SERVER_PORT,
   shouldOpenAnalyzer,
